@@ -1,13 +1,13 @@
 {
-"name": "gcp-nodejs-website",
-"version": "1.0.0",
-"description": "A simple Node.js Express server for Google Cloud Run deployment.",
-"main": "index.js",
-"scripts": {
-"start": "node index.js"
-},
-"dependencies": {
-"express": "^4.19.2",
-"@google/genai": "^0.1.0"
-}
+  "name": "gcp-nodejs-website",
+  "version": "1.0.0",
+  "description": "A simple Node.js Express server for Google Cloud Run deployment.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@google/genai": "0.1.0"  <-- CHANGE THIS LINE: Removed the caret (^)
+  }
 }
