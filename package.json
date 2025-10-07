@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "express": "^4.19.2",
-    "@google/genai": "0.1.0"  <-- CHANGE THIS LINE: Removed the caret (^)
+    "@google/genai": "0.1.0"  
+    
   }
 }
