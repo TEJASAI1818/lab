@@ -1,0 +1,7 @@
+Ignore files and folders that are not needed in the final Docker image
+This prevents unnecessary files from being copied, speeding up the build.
+node_modules
+npm-debug.log
+.git
+.gitignore
+.DS_Store
